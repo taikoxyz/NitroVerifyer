@@ -4,3 +4,6 @@
 [submodule "lib/NitroProver"]
 	path = lib/NitroProver
 	url = https://github.com/marlinprotocol/NitroProver
+[submodule "lib/dependencies/NitroProver"]
+	path = lib/dependencies/NitroProver
+	url = https://github.com/marlinprotocol/NitroProver
