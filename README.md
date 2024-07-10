@@ -1,6 +1,6 @@
 ## Taiko Nitro Verifyer
 
-This is a verifier for the Taiko blockchain. It is a Rust implementation of the Taiko verifier that uses the Nitro enclave to accelerate the verification of Risc0 proofs.
+This is a verifier for the Taiko blockchain. It is a Rust implementation of the Taiko verifier that uses the Nitro enclave to leverage it's TEE for proof generation.
 
 It's build using certificate and attestation verification from `marlinprotocol/NitroProver`.
 
