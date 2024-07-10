@@ -18,4 +18,11 @@ contract NitroVerifyer is NitroProver, Ownable {
             365 days
         );
     }
+
+    function registerPCR(
+        bytes32 enclaveId,
+        bytes memory pcr
+    ) public view OwnerOnly {
+        PCRs[enclaveId] = pcr;
+    }
 }
